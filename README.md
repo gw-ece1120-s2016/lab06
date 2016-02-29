@@ -119,7 +119,9 @@ time (in hours, minutes, and seconds) between the two times. So the
 call `elapsed_time (time1, time2)` where time1 represents 3:45:15 and
 time2 represents 9:44:03, should return a time structure that
 represents 5 hours, 58 minutes, and 48 seconds. Be careful with times
-that cross midnight. 
+that cross midnight. Assume that caller of the function passes arguments
+such that time1 is always earlier than time 2. So, if time2 looks like
+a lower numerical value, it is a signal for midnight-crossing subtraction.
 
 Your main function should prompt for and read two times in `hh:mm:ss`
 format and print the difference between them.
