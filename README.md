@@ -169,7 +169,7 @@ following command form inside lab06 folder: ``` git add part4.c ```
 
 # Part 5
 
-Write a program called `part6.c` to compute a solution to the problem
+Write a program called `part5.c` to compute a solution to the problem
 presented at https://www.expii.com/solve/1/5# 
 
 The problem reads:
