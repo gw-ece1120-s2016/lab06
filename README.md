@@ -2,7 +2,7 @@
 
 *Assigned: 2016-02-29*
 
-*Due: 2016-03-06 11:59:59 PM EST*
+*Due: 2016-03-07 11:59:59 PM EST*
 
 This is the Lab 6 assignment for ECE 1120 - C Programming for ECE.
 
