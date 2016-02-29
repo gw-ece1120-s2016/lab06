@@ -8,8 +8,8 @@ This is the Lab 6 assignment for ECE 1120 - C Programming for ECE.
 
 The goals of this lab are to extend your experience with loops,
 functions and arrays.  You may have to read the chapter in the
-textbook about loops, arrays, and functions in order to do these
-problems.
+textbook about loops, arrays, functions, and character arrays in order
+to do these problems.
 
 
 **Be sure to put your name in a comment at the top of each program you
