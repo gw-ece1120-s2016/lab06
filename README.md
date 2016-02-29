@@ -62,13 +62,19 @@ the largest and smallest elements in an array. You may base your code
 on code from the slides (which may also be in the book), but you must
 write **two** function with the prototypes:
 
-```void find_maximum(int A[], int n, int *idx_max, int *max_val)```
+```
+void find_maximum(int A[], int n, int *idx_max, int *max_val)
+```
+
 and
-````void find_minimum(int A[], int n, int *idx_min, int *min_val)```
+
+````
+void find_minimum(int A[], int n, int *idx_min, int *min_val)
+```
 
 Note the special pointer notation such as `int *idx_max` and `int
 *max_val`. For now, you can just think of this as a way for a function
-to modify input arguments. And the `find_minimum` and `find_maximum`
+to modify input arguments. The `find_minimum` and `find_maximum`
 functions should only find items, not print anything.
 
 Your program should generate `10000` random integers using the standard
@@ -83,7 +89,7 @@ following command form inside lab06 folder: ``` git add part1.c ```
 
 Write a function that raises an integer to a an integer power, without
 using any of the math library functions. Use the prototype:
-```int x_to_the_n(int x, int n)```
+```int x_to_the_n(int x, int n);```
 
 Your program should prompt the user for integer `x`, read it in,
 prompt the user for an integer `n`, read it in, call `x_to_the_n`, and
@@ -104,6 +110,7 @@ struct time {
        int hour;     /* 0 to 23 */
        int minutes;  /* 0 to 59 */
        int seconds;  /* 0 to 60 */
+};
 ```
 
 Write a function `elapsed_time` that takes as its arguments two time
@@ -140,7 +147,7 @@ interested in finding.
 
 Here we are using fancy pointer notation for the character
 arrays. Explain in a comment why we do not need to pass in the size
-each string.
+of each string.
 
 If the function finds the specified string, have it return the
 location in the source string where the string was found. If the
@@ -152,7 +159,7 @@ So, for example, the call `index = findString ("a chatterbox",
 function returns 3 to indicate the starting position inside the source
 string where "hat" was found. 
 
-Your main function should prompt for, and read two strings, the first
+Your main function should prompt for, and read in two strings, the first
 the string to be searched (i.e. haystack), and the second the substring
 to be searched for (i.e. needle).
 format and print the difference between them.
@@ -167,10 +174,13 @@ presented at https://www.expii.com/solve/1/5#
 
 The problem reads:
 ```
-Oh no! You’re above a pit of fire and the only way out is a 1000-rung escape ladder. You’re on the first rung.
-fire dice
+Oh no! You’re above a pit of fire and the only way out is a 1000-rung
+escape ladder. You’re on the first rung.
 
-Every second, a standard (6 sided) die rolls. If it’s a 1 or 2, you move down one rung. Anything 3 or greater, you move up one rung. If you move down from the first rung, you fall into the fire! If you move up from the 1000th rung, you escape.
+Every second, a standard (6 sided) die rolls. If it’s a 1 or 2, you
+move down one rung. Anything 3 or greater, you move up one rung. If
+you move down from the first rung, you fall into the fire! If you move
+up from the 1000th rung, you escape.
 
 What is the probability that you escape?
 
