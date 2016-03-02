@@ -89,12 +89,12 @@ following command form inside lab06 folder: ``` git add part1.c ```
 
 Write a function that raises an integer to a an integer power, without
 using any of the math library functions. Use the prototype:
-```int x_to_the_n(int x, int n);```
+```float x_to_the_n(int x, int n);```
 
 Your program should prompt the user for integer `x`, read it in,
 prompt the user for an integer `n`, read it in, call `x_to_the_n`, and
 print the result. Be sure your program works for negative values of
-`x` and validates the range of `n`. What happens when `n` is too big?
+`x` and `n` and validates the range of `n`. What happens when `n` is too big?
 Your function should return an error, and your main program should
 display an error message and exit gracefully.
 
